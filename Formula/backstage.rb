@@ -10,6 +10,12 @@ class Backstage < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/andrewfitz/homebrew-tap/releases/download/backstage-1.3.8"
+    sha256 cellar: :any, arm64_tahoe:   "271498cb7dcc9238bbe4c3dcabfa2ba1e9621213382fec3c9c36729daaff6afa"
+    sha256 cellar: :any, arm64_sequoia: "7d5752b2749d6b37cd1bba765ce6c5f6f6439e202cf3b1022090573baa3986fc"
+  end
+
   depends_on xcode: :build
   depends_on macos: :sonoma
 
