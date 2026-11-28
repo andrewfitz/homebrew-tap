@@ -1,6 +1,6 @@
 cask "redlight" do
-  version "1.5.1"
-  sha256 "cf2961370476071843f2948aa93b0a75bef116da48aa2b1e9c96c90e6862c1ae"
+  version "2.0.0"
+  sha256 "4b9251112f928b4f9990b74787184638d8ee0b4e866c166a5d371cbd3c3d0bbe"
 
   url "https://github.com/andrewfitz/redlight/releases/download/v#{version}/Redlight-#{version}.dmg"
   name "Redlight"
